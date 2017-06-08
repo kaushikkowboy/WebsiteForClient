@@ -1,0 +1,76 @@
+#contact .contact_content{
+	text-align: center;
+}
+#contact .contact_form{
+	text-align: center;
+	background-color: #ff0048;
+	background-image: url('../../images/bg_contact1.jpg');
+}
+#contact input, #contact textarea{
+	background-color: rgba(255, 0, 72, 0.7);
+	margin-top: 5px;
+	width: 40%;
+	height: 35px;
+	color: white;
+}
+#contact textarea{
+	height: 150px;
+}
+#contact .submit-form input{
+	background-color: white;
+	width: 20%;
+	color: black;
+}
+#contact .contact_form #contactForm .submit-form{
+	margin-bottom: 30px;
+}
+#contact ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+#contact ::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+#contact :-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+#contact  :-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+#contact .contact_content h2, #contact .contact_content a{
+	color: #FF0048;
+}
+#contact .contact_content a, #contact .contact_content p{
+	font-family: 'Roboto', sans-serif; 
+}
+#contact .contact_content .social_icons ul li{
+	display: inline-block;
+    margin-right: 12px;
+    font-size: 28px;
+}
+#contact .contact_content .social_icons ul li a{
+	color: black
+}
+#contact .contact_content .social_icons ul li a:hover{
+	color: #FF0048;
+	border: solid 1px #FF0048;
+	padding: 5px 10px; 
+	border-radius: 10%;
+}
+#contact .contact_content .affiliates{
+	text-align: left;
+} 
+#contact .contact_content .affiliates h1{ 
+	text-align: center;
+	font-family: cursive;	
+	color: black;
+	text-shadow: -2px 3px 2px rgba(150, 150, 150, 1);
+}
+#contact .contact_content .affiliates .company{
+	padding-left: 10%;
+}
+#contact .contact_content .affiliates .company a{
+	color: #222;
+}
+#contact .contact_content .affiliates .company a:hover{
+	color: #FF0048;
+}

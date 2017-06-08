@@ -1,0 +1,17 @@
+#breadcrumb{
+	padding-top: 3px;
+	border-top: black solid 4px;
+} 
+#breadcrumb .bread{
+	border-bottom: black solid 1px; 
+}
+#breadcrumb .pull-right p{
+	margin-right: 10px;
+	font-size: 35px;
+	color: black;
+	text-shadow: 4px 4px 4px rgba(150, 150, 150, 1);
+}
+#breadcrumb .pull-left p{
+	margin-left: 10px;
+	padding-top: 15px;
+}

@@ -1,0 +1,29 @@
+#page .services{
+    margin-top: 20px;
+}
+#page .service_box{
+	padding: 15px 20px 15px 20px;
+    background-color: #eaeaea;
+    border: black solid 5px;
+}
+#page .service_box:after{
+	font-family: FontAwesome;
+    content: "\f0dd";
+    display: inline-block;
+    font-size: 35px;
+    text-align: center; 
+    position: absolute;
+    bottom: -20px;
+    color: black;
+    left: 100px;
+}
+#page .service_box p{
+	line-height: 1.8;
+	font-size: 16px;
+	/*text-shadow: 1px 3px 5px rgba(150, 150, 150, 1);*/
+	text-shadow: 4px 4px 4px rgba(150, 150, 150, 1);
+}
+#page button.theme_button{
+    width: 200px;  
+    height: 50px;  
+}

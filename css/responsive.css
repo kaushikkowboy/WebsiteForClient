@@ -1,0 +1,85 @@
+/* Responsive */
+
+/* Ipad - both */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+	button.theme_button a {
+		font-size: 25px;
+	}
+	/* Header */
+	.navbar-nav li a {
+		margin: 20px 0px;
+	}
+	ul.nav.navbar-nav.navbar-right li a {
+		font-size: 15px;
+	}
+	/*Footer*/
+	footer .footer .footer_column.three {
+    clear: both;
+	}
+	/*Contact*/
+	#contact input, #contact textarea {
+		width: 80%;
+	}
+}
+
+/* Iphone 6 - both */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+	button.theme_button a {
+		font-size: 21px;	
+	} 
+	/* Header */
+	ul.nav.navbar-nav.navbar-right li a{
+	border-right: none;
+	}
+	/*Home Content*/
+	#home_content .donate p {
+		font-size: 20px;
+	}
+	#home_content .donate span{
+		font-size: 33px;
+	}
+	#home_content .donate_button button.theme_button{
+		height: 30px;
+	}
+	#home_content .donate_button button.theme_button a{
+		font-size: 11px;
+	}
+	/*Contact*/
+	#contact input, #contact textarea {
+		width: 80%;
+	}
+}
+
+/* Iphone 5 - both */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+	button.theme_button a {
+		font-size: 19px;
+	}
+	/* Header */
+	ul.nav.navbar-nav.navbar-right li a{
+	border-right: none;
+	}
+	/*Home Content*/
+	#home_content .donate p {
+		font-size: 20px;
+	}
+	#home_content .donate span{
+		font-size: 33px;
+	}
+	#home_content .donate_button button.theme_button{
+		height: 30px;
+	}
+	#home_content .donate_button button.theme_button a{
+		font-size: 11px;
+	}
+	/*Contact*/
+	#contact input, #contact textarea {
+		width: 80%;
+	}
+}

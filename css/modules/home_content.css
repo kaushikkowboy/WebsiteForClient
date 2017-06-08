@@ -1,0 +1,137 @@
+#home_content{
+	font-family: 'Lobster', cursive;
+}
+#home_content .donate{
+	font-family: 'Oswald', sans-serif; 
+    line-height: 1;
+    text-align: center;
+    color: #0088CB;
+}
+#home_content .donate_button{
+	text-align: center;
+}
+#home_content .donate_button img{
+	max-width: 125px;
+	color: #0088CB;
+}
+#home_content .donate a{
+	text-decoration: none;
+	color: #ED1C24
+}
+#home_content .donate p{
+	font-size: 40px;
+	margin: 0;
+}
+#home_content .donate span{
+	font-size: 80px;
+	margin: 0;
+
+}
+#home_content .home_box{
+	padding: 15px 20px 15px 20px;
+    background-color: #eaeaea;
+    border: black solid 5px;
+}
+#home_content .home_box:after{
+	font-family: FontAwesome;
+    content: "\f0dd";
+    display: inline-block;
+    font-size: 35px;
+    text-align: center; 
+    position: absolute;
+    bottom: -20px;
+    color: black;
+    left: 100px;
+}
+#home_content .home_box p{
+	line-height: 1.8;
+	font-size: 16px;
+	/*text-shadow: 1px 3px 5px rgba(150, 150, 150, 1);*/
+	text-shadow: 4px 4px 4px rgba(150, 150, 150, 1);
+}  
+#home_content .slider_holder{
+	text-align: center; 
+}
+#home_content .home_slider{ 
+	padding: 20px 20px 20px 20px; 
+}
+#home_content .slider_holder .home_slider .image_holder:after{
+    font-family: FontAwesome;
+    content: "\f054"; 
+    left: 310px;
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    font-size: 45px;
+    vertical-align: middle;
+    color: white;
+    text-shadow: 1px 5px 7px rgb(0, 0, 0);
+}
+#home_content .slider_holder .home_slider .image_holder:before{
+    font-family: FontAwesome;
+    content: "\f053"; 
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    font-size: 45px;
+    vertical-align: middle;
+    color: white;
+    text-shadow: 1px 5px 7px rgb(0, 0, 0); 
+    z-index: 10;
+}
+#home_content .slider_holder .home_slider .image_holder{ 
+	width: 264px;	 
+	overflow: hidden;
+}
+#home_content .slider_holder .home_slider .image_holder img{
+	width: 200px;
+	height: 200px;
+	margin-left: 10px;
+	border: #0088CB solid 4px; 
+}
+#home_content .slider_holder .home_slider ul {
+  white-space: nowrap;
+} 
+#home_content .slider_holder .home_slider ul li {
+  list-style: none;
+  display: inline;
+  position: relative;
+  right: 10px;
+}
+#home_content .goal_block img{
+	padding: 10px 15px 20px 10px;
+}
+#home_content .donate_banner img{
+	border: solid;
+	-webkit-box-shadow: 4px 39px 88px -26px rgba(0,0,0,1);
+	-moz-box-shadow: 4px 39px 88px -26px rgba(0,0,0,1);
+	box-shadow: 4px 39px 88px -26px rgba(0,0,0,1);
+	margin-bottom: 30px;
+}
+
+/*Big Slider*/
+#home_content #myCarousel{
+	padding: 0px 50px;
+}
+#home_content #myCarousel a.left.carousel-control{
+    background-image: url(../../images/left.png);
+    max-width: 100px;
+    color: transparent;
+    top: 30%;
+    background-size: 40%;
+    background-repeat: no-repeat; 
+    text-shadow: none;
+}
+#home_content #myCarousel a.right.carousel-control{
+    background-image: url(../../images/right.png);
+    max-width: 100px;
+    color: transparent;
+    top: 30%;
+    right: -60px;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    text-shadow: none;
+}
+#home_content #myCarousel .carousel-inner .item img{ 
+	border: 10px solid #f8f8f8;
+}

@@ -1,0 +1,94 @@
+footer h2{
+    text-align: center;
+} 
+footer .copy{
+    background-color: #292c2f; 
+    color: #eee;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+footer .copy img{
+    max-height: 70px;
+    height: 70px;
+    width: auto;
+}
+footer .footer{
+    background-color: #bbbbbb;
+}
+footer .footer p{
+    display: inline-block;
+}
+footer .footer .footer_icons{
+    text-align: center;
+}
+footer .footer .footer_icons ul li{
+    margin-right: 2px;
+    display: inline;
+}
+footer .footer .footer_column{
+    padding: 10px 30px;
+}
+footer .footer .footer_icons ul li a{
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+}
+footer .footer .footer_icons ul li a:hover{
+    color: white;
+    background-color: #0088CB;  
+}
+footer .footer .footer_column.two ul li:before{
+    font-family: FontAwesome;
+    content: "\f061";
+    color: #0088CB;
+}
+footer .footer .footer_column.two ul li a{
+    color: #333;
+    margin-left: 5px; 
+    line-height: 2;
+}
+footer .footer .footer_column.two ul li a:hover{
+    color: #eee;
+} 
+footer .footer .footer_column.three .timings ul li{
+    margin-bottom: 3px;
+}
+.footer-distributed .footer-center{
+    width: 35%;
+}
+footer .footer .footer_column.four .footer-center i{
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 14px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 26px;
+    margin: 5px 10px;
+    vertical-align: middle;
+}
+footer .footer .footer_column.four  .footer-center i.fa-mobile{
+    font-size: 19px;
+    line-height: 28px;
+}
+footer .footer .footer_column.four  .footer-center p{
+    display: inline-block;
+    color: #222;
+    vertical-align: middle;
+    margin:0;
+}
+footer .footer .footer_column.four  .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+}
+footer .footer .footer_column.four .footer-center p a{
+    color:  #f00;
+    text-decoration: none;
+}
+footer .footer .footer_column.four .footer-center p a:hover{
+    color: white;
+}

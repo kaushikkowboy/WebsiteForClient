@@ -1,0 +1,33 @@
+.navbar-default {
+	border:none;
+}
+.navbar-brand,
+.navbar-nav .navbar-right li {
+    line-height: 100px;
+    height: 100px;
+    padding-top: 0;
+}
+.navbar-nav li a{  
+	margin: 20px 5px;
+}
+.navbar-nav .dropdown-menu li a{ 
+	margin: 0;
+} 
+.navbar-right{
+	margin-right: 10%
+}
+ul.nav.navbar-nav.navbar-right li a{
+	font-size:17px;
+	border-right: #0088CB solid 1px;
+}  
+ul.nav.navbar-nav.navbar-right li:last-child a{
+	border: none;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #f00;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:active{
+	color: #0088CB;
+	background-color: transparent;
+}

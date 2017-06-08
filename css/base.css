@@ -1,0 +1,57 @@
+body,h1,h2,h3,h4,h5,h6,p,li,a{
+	font-family: 'Oswald', sans-serif;
+}
+body{
+	background-color: #f8f8f8;
+}
+img{
+	width: 100%;
+}
+button.theme_button{
+	width: 100%; 
+	margin-top: 10px;
+	height: 55px;
+	text-align: center;
+	padding-top: 5px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+40,212121+67,565656+100 */
+	background: rgb(0,0,0); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 40%, rgba(33,33,33,1) 67%, rgba(86,86,86,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 40%,rgba(33,33,33,1) 67%,rgba(86,86,86,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 40%,rgba(33,33,33,1) 67%,rgba(86,86,86,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#565656',GradientType=0 ); /* IE6-9 */
+}
+button.theme_button a{
+	text-decoration: none !important;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	color: white;  
+	vertical-align: middle;
+}
+button.theme_button:hover{
+	color: white;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0088cb+0,128fc9+41,3299c9+67,c9c9c9+100 */
+	background: rgb(0,136,203); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(0,136,203,1) 0%, rgba(18,143,201,1) 41%, rgba(50,153,201,1) 67%, rgba(201,201,201,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,136,203,1) 0%,rgba(18,143,201,1) 41%,rgba(50,153,201,1) 67%,rgba(201,201,201,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,136,203,1) 0%,rgba(18,143,201,1) 41%,rgba(50,153,201,1) 67%,rgba(201,201,201,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088cb', endColorstr='#c9c9c9',GradientType=0 ); /* IE6-9 */
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: white;
+}
+.make_space{
+	margin-top: 20px;
+}
+p{
+	font-size: 15px; 
+}
+ul li {
+    display: block;
+}
+ul{
+	padding: 0;
+}
