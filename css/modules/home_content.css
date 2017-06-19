@@ -49,55 +49,7 @@
 	/*text-shadow: 1px 3px 5px rgba(150, 150, 150, 1);*/
 	text-shadow: 4px 4px 4px rgba(150, 150, 150, 1);
 }  
-#home_content .slider_holder{
-	text-align: center; 
-}
-#home_content .home_slider{ 
-	padding: 20px 20px 20px 20px; 
-}
-#home_content .slider_holder .home_slider .image_holder:after{
-    font-family: FontAwesome;
-    content: "\f054"; 
-    left: 310px;
-    display: flex;
-    position: absolute;
-    bottom: 100px;
-    font-size: 45px;
-    vertical-align: middle;
-    color: white;
-    text-shadow: 1px 5px 7px rgb(0, 0, 0);
-}
-#home_content .slider_holder .home_slider .image_holder:before{
-    font-family: FontAwesome;
-    content: "\f053"; 
-    display: flex;
-    position: absolute;
-    bottom: 100px;
-    font-size: 45px;
-    vertical-align: middle;
-    color: white;
-    text-shadow: 1px 5px 7px rgb(0, 0, 0); 
-    z-index: 10;
-}
-#home_content .slider_holder .home_slider .image_holder{ 
-	width: 264px;	 
-	overflow: hidden;
-}
-#home_content .slider_holder .home_slider .image_holder img{
-	width: 200px;
-	height: 200px;
-	margin-left: 10px;
-	border: #0088CB solid 4px; 
-}
-#home_content .slider_holder .home_slider ul {
-  white-space: nowrap;
-} 
-#home_content .slider_holder .home_slider ul li {
-  list-style: none;
-  display: inline;
-  position: relative;
-  right: 10px;
-}
+ 
 #home_content .goal_block img{
 	padding: 10px 15px 20px 10px;
 }
@@ -134,4 +86,32 @@
 }
 #home_content #myCarousel .carousel-inner .item img{ 
 	border: 10px solid #f8f8f8;
+}
+
+/*Small Slider*/
+#home_content #myCarousel1{
+    padding: 0px 50px;
+}
+#home_content #myCarousel1 a.left.carousel-control{
+    background-image: url(../../images/left.png);
+    max-width: 100px;
+    color: transparent;
+    top: 30%;
+    left: 30px;
+    background-size: 40%;
+    background-repeat: no-repeat; 
+    text-shadow: none;
+}
+#home_content #myCarousel1 a.right.carousel-control{
+    background-image: url(../../images/right.png);
+    max-width: 100px;
+    color: transparent;
+    top: 30%;
+    right: 0px;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    text-shadow: none;
+}
+#home_content #myCarousel1 .carousel-inner .item img{ 
+    border: 7px solid #0088CB; 
 }

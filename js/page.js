@@ -15,8 +15,6 @@ $('.carousel-control').on("mouseover", function () {
 .on("mouseout", function () {
     clearInterval(i);
 });
-
 $('#myCarousel1').carousel({
     interval: false
 });
- 

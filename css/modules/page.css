@@ -27,3 +27,30 @@
     width: 200px;  
     height: 50px;  
 }
+/*Slider*/
+#page .caroslider{
+    padding: 0px 50px;
+}
+#page .caroslider a.left.carousel-control{
+    background-image: url(../../images/left.png);
+    max-width: 100px;
+    color: transparent;
+    top: 30%;
+    left: 20px;
+    background-size: 40%;
+    background-repeat: no-repeat; 
+    text-shadow: none;
+}
+#page .caroslider a.right.carousel-control{
+    background-image: url(../../images/right.png);
+    max-width: 100px;
+    color: transparent;
+    top: 30%;
+    right: -20px;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    text-shadow: none;
+}
+#page .caroslider .carousel-inner .item img{ 
+    border: 10px solid #f8f8f8;
+}

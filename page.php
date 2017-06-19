@@ -41,6 +41,7 @@
 	<!-- PLUGINS -->
 	<script src="plugins/jquery.min.js"></script>
 	<script src="plugins/bootstrap.min/js/bootstrap.min.js"></script>
+	<script src="js/page.js"></script>
 	<script src="plugins/lightbox.min/js/lightbox.min.js"></script>
 	 
 </body>
